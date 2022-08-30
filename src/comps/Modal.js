@@ -17,9 +17,9 @@ const Modal = ({ selectedImg, setSelectedImg, id, fileName }) => {
       setSelectedImg(null);
     }
   };
-  const handleDownload = (fileName) => {
-    console.log(fileName);
-  };
+  // const handleDownload = (fileName) => {
+  //   console.log(fileName);
+  // };
 
   return (
     <motion.div
@@ -51,7 +51,7 @@ const Modal = ({ selectedImg, setSelectedImg, id, fileName }) => {
           style={{
             fontSize: "35px",
           }}
-          onClick={() => handleDownload(fileName)}
+          // onClick={() => handleDownload(fileName)}
         />
       </motion.div>
     </motion.div>

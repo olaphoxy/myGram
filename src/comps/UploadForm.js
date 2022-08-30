@@ -20,7 +20,6 @@ const UploadForm = ({ file, setFile }) => {
     }
   };
   const fileInput = useRef(null);
-
   return (
     <form>
       <div>

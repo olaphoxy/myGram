@@ -9,7 +9,7 @@ function App() {
   const [selectedImg, setSelectedImg] = useState(null);
   const [id, setId] = useState(null);
   const [file, setFile] = useState(null);
-  console.log(file);
+  // console.log(file);
 
   return (
     <div className="App">
@@ -22,7 +22,6 @@ function App() {
           selectedImg={selectedImg}
           setSelectedImg={setSelectedImg}
           id={id}
-          fileName={file}
         />
       )}
     </div>

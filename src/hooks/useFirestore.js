@@ -13,6 +13,7 @@ const useFirestore = (collect) => {
         querySnapshot.forEach((doc) => {
           documents.push({ ...doc.data(), id: doc.id });
         });
+        // console.log(documents);
         setDocs(documents);
       });
     };
